@@ -241,8 +241,14 @@ body {
         <h4>Mila SwiftlySenpai (By the toughest and most aggressive level 8-15 police officers)</h4>
         <h4>Igão Play and Fiscal (Based on some screenshots on the website)</h4>
     </body>
-
+window.addEventListener('pageshow', function(event) {
+    // Verifica se a página foi carregada do cache
+    if (event.persisted) {
+        window.location.reload(); // Recarrega para forçar animação
+    }
+});
 </html>
+
 
 
 
