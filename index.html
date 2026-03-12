@@ -44,6 +44,18 @@
         transform: scale(1.2); /* Aumenta 20% (aproximar) */
         opacity: 1;            /* Fica totalmente opaco (fade-in) */
     }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    .conteudo {
+        animation: fadeIn 2s;
+        /* Garante que o elemento fique visível após a animação */
+        animation-fill-mode: forwards; 
+    }
+	
 </style>
 
 <style>
@@ -96,7 +108,7 @@ body {
 </style>
     </head>
     <body
-    <p style="text-align: center;"></p>
+    <p class="conteudo"; style="text-align: center;"></p>
         <h1>Introdução</h1>
         <h2>Principal</h2>
         <h3>Trata-se de um conjunto de correções e melhorias para o jogo "Need For Speed Most Wanted" com o Mod Ultimate Edition</h3>
@@ -233,5 +245,6 @@ body {
     </body>
 
 </html>
+
 
 
