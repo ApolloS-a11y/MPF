@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mini Patch Fix Ultimate Edition</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <nav>
+            <div style="text-align: left;">
+            <a href="index.html" class="btn-animado"; style="color: rgb(255, 255, 255); text-decoration: none;  background: #555555;">PT</a> | <a href="index-en.html" class="btn-animado"; style="color: rgb(255, 255, 255); text-decoration: none;  background: #555555;">EN</a>
+            </div>
+        </nav>
+<style>
+    /* 1. Container para centralizar e limitar o zoom */
+    .container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center;     /* Centraliza verticalmente */
+        height: 60vh;           /* Altura total da tela (opcional) */
+        background-color: #f0f0f0;
+    }
+
+    .image-wrapper {
+        width: 70vw;            /* Largura da imagem */
+        height: 63vh;           /* Altura da imagem */
+        overflow: hidden;        /* Esconde o zoom fora da borda */
+        border-radius: 10px;     /* Opcional: bordas arredondadas */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
+    }
+
+    /* 2. Estilo inicial da imagem */
+    .zoom-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+        /* A MÁGICA: transition define a suavidade da animação */
+        /* opacity inicia transparente (fade-in) */
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        opacity: 0.8; /* Levemente transparente antes do hover */
+    }
+
+    /* 3. Ação ao passar o mouse (Hover) */
+    .image-wrapper:hover .zoom-image {
+        transform: scale(1.2); /* Aumenta 20% (aproximar) */
+        opacity: 1;            /* Fica totalmente opaco (fade-in) */
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    .conteudo {
+        animation: fadeIn 2s;
+        /* Garante que o elemento fique visível após a animação */
+        animation-fill-mode: forwards; 
+    }
+	
+</style>
+
+<style>
+    * {
+	font-family: Century Gothic Regular, sans-serif;
+background: #152331;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cecece, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6e6e6e, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.highlight-box {
+   background-color: yellow;
+}
+body {
+	color: rgb(255, 255, 255);
+}
+    h1 {
+	color: #ffffff;
+}
+    h2 {
+	color: #ffffff;
+}
+    h3 {
+	color: #ffffff;
+}
+    h4 {
+	color: #ffffff;
+}
+    strong {
+	color: #ffffff;
+}
+
+.btn-animado {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    /* Define a suavidade da animação */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-animado:hover {
+    /* Aumenta o tamanho do botão */
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+
+</style>
+    </head>
+    <body
+    <p class="conteudo"; style="text-align: center;"></p>
+        <h1>Introdução</h1>
+        <h2>Principal</h2>
+        <h3>Trata-se de um conjunto de correções e melhorias para o jogo "Need For Speed Most Wanted" com o Mod Ultimate Edition</h3>
+        <h3>(Está um pouco desatualizado devido algumas funções que adicionei e modifiquei)</h3>
+        <a href="https://www.youtube.com/watch?v=Suk0VB198pg" class="btn-animado"; style="display: inline-block; padding: 10px 20px; background: #0f0f0f; color: rgb(255, 255, 255); text-decoration: none; border-radius: 5px;">Vídeo detalhando sobre o mod aqui!</a>
+        <h4>O Fiscal apesar do excelente trabalho, ele não conseguiu infelizmente manter o nível de qualidade técnica desejada.</h4>
+        <h4>Então eu fiz o melhor que pude para se tornar uma experiência quase perfeita.</h4>
+    <div style="text-align: center;">
+        <a href="https://www.nfsaddons.com/projects/nfsmw/203/opex-rah-nfs-most-wanted-ultimate-edition.html" class="btn-animado"; style="display: inline-block; padding: 10px 20px; background: #0f0f0f; color: rgb(206, 0, 0); text-decoration: none; border-radius: 5px;">
+        Mod do Fiscal
+        </a>
+    </div>
+        <h4>Para instalar será necessário o VLT-ED e o Binary 2.8.3 ou 2.9.0.</h4>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="https://img.youtube.com/vi/dMt-AfhZyak/maxresdefault.jpg" alt="Imagem com Animação" class="zoom-image">
+        </div>
+    </div>
+        <h4>Para instalar o Mini Patch Fix, está logo abaixo deste texto;</h4>
+        <h4>Todas as instruções para a instalação estão no arquivo "Leia-Me";</h4>
+    <div style="text-align: center;">
+        <a href="https://sharemods.com/br6rdf056f7q/Mini_Patch_Fix_Ultimate_Edition_V4.0.zip.html" class="btn-animado"; style="display: inline-block; padding: 10px 20px; background: #181818; color: white; text-decoration: none; border-radius: 5px;">
+        Arquivo do Mod
+        </a>
+    </div>
+        <p style="line-height: 5.0;">_____________________</p>
+        <h2>Do que se trata especificamente esse Pacote?</h2>
+        <h3>Se trata basicamente de um pacote de correções pelas principais partes de gameplay do jogo como carros, customização, crashes, atualizações de scripts e muito mais.</h3>
+        <h3>Além de possuir melhorias que trazem um estilo de gameplay diferente ou até mais aprimorado comparado a versão normal, nas quais são carros policiais adicionados, troca de velocímetros,</h3>
+        <h3>DXVK (Otimização), Compatibilidade com Controles e até um Save Game 100%.</h3>
+        <p style="line-height: 5.0;">_____________________</p>
+        <h2>Todo o Changelog V1</h2>
+        <h4>-Consertado os níveis 10 e 15 de procurado, pois estavam com formações que não existiam;</h4>
+        <h4>-Consertado bloqueios e Suvs não aparecendo ou demorando nos níveis 8-15;</h4>
+        <h4>-Criado um suporte melhor para os níveis 10 ao 15;</h4>
+        <h4>-Aumentado a quantidade de viaturas patrulhando em cada nível de procurado;</h4>
+        <h4>-Rádios da Polícia agora funcionando nos níveis 11-15;</h4>
+        <h4>-Trocado os NIS Fixes do mod para uma versão atualizada;</h4>
+        <h4>-Melhorado a qualidade do aúdio de músicas de perseguições policiais;</h4>
+        <h4>-Consertado Stutter quando desativado as músicas do NFS Undercover;</h4>
+        <h4>-Consertado as músicas do NFS Undercover que não mudavam o volume dentro do jogo;</h4>
+        <h4>-Atualizado a maioria dos scripts já existentes para melhor estabilidade; (Exceto o Unlimiter, pois ele tira a randomização de cores dos carros nas concessionárias e dos menus.)</h4>
+        <h4>-Adicionado MWCrashFix para evitar crashar em perserguições aleatoriamente;</h4>
+        <h4>-Melhorado a otimização do mod deixando com uma carga muito mais leve, apesar de retirar os enbseries, eu configurei o reshade e deixei da mesma forma que antes.</h4>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="http://nfsaddons.com/project_pictures/big/203_28.jpg" alt="Imagem com Animação" class="zoom-image">
+        </div>
+    </div>
+        <p style="line-height: 5.0;">_____________________</p>
+        <h2>Todo o Changelog V2</h2>
+        <h3>Além das correções e melhorias do V1 temos:</h3>
+        <h4>-Adicionado um limit ajuster para evitar carros invisíveis;</h4>
+        <h4>-Corrigido problema ao repetir uma corrida já feita, demorando muito mais para carregar as corridas e radares ou até crashes;</h4>
+        <h4>-Aumentado a quantidade de viaturas patrulhando em cada nível de procurado;</h4>
+        <h4>-Adicionado categoria de "Optional" que vai servir para acrescentar mais vida ao jogo:</h4>
+        <h4>-> Controller Compatibility: Melhora a compatibilidade com controles, deixando um sistema mais moderno como: NFS Rivals, 2015, Payback, Heat e Unbound.</h4>
+        <h4>-> O DXVK foi movido agora para a pasta "Optional", e possui compatibilidade para todos os Presets de Reshade;</h4>
+        <h4>-> Modified Speed ​​Hud: Poderá trocar os Huds por uma maior qualidade, tendo 14 opções;</h4>
+        <h4>-> Motion Blur Lighter: Diminuíra o borrão de movimento, podendo ter um visual melhor;</h4>
+        <h4>-> Police Cars Added: Vai servir para dar vida as perseguições policiais, acrescentando no total de 16 viaturas;</h4>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="https://i.ibb.co/FbggyRKS/Screenshot-1.jpg" alt="Imagem com Animação" class="zoom-image">
+        </div>
+    </div>
+        <p style="line-height: 5.0;">_____________________</p>
+        <h2>Todo o Changelog V2.5</h2>
+        <h3>Além das correções e melhorias do V1 e V2 temos:</h3>
+        <h4>-Agora foi mudado a forma de instalar os arquivos, através do Binary;</h4>
+        <h4>-Corrigido os sons dos motores do Toyota Supra que eram baixos;</h4>
+        <h4>-Corrigido alguns erros ao colocar presets do DXVK no jogo não funcionando corretamente;</h4>
+        <h4>-Corrigido alguns textos;</h4>
+        <h4>-Corrigido erros ao instalar carros da polícia adicionados no binary;</h4>
+        <h4>-Adicionado opção na instalação do VLT-ED para deixar as perseguições policiais mais difíceis nos níveis 8-15; (OBS: Recomendado estar na dificuldade difícil ou maior.)</h4>
+        <h4>-Adicionado opção de instalar os áudios das sirenes do Need For Speed Undercover|World;</h4>
+        <h4>-Adicionado opções de desinstalação e não instalar para a quase todos os adicionais, tanto no VLT-ED, tanto no binary; (Exceto o DXVK.)</h4>
+        <h4>-Adicionado mais 3 viaturas com uma substituída, além de, um helicóptero novo;</h4>
+        <h4>-Transportado o Bugatti Veyron Undercover da Polícia do Nível 15 para o 14.</h4>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="https://i.ibb.co/vMnF3pT/Screenshot-4.jpg" alt="Imagem com Animação" class="zoom-image">
+        </div>
+    </div>
+        <p style="line-height: 5.0;">_____________________</p>
+        <h2>Todo o Changelog V3.0</h2>
+        <h3>Além das correções e melhorias do V1, V2 e V2.5 temos:</h3>
+        <h4>-Trocado os carros do série desafios 45 e 49, pois estavam com carros nos quais não existiam arquivos;</h4>
+        <h4>-Colocado o helicóptero do NFS Undercover como opcional e não mais na instalação de carros policiais adicionados;</h4>
+        <h4>-Trocado o MWCrashFix da versão 1.2 Experimental para a 1.1, devido ao log que ele criava e isso estava fazendo o jogo continuar crashando constantemente;</h4>
+        <h4>-Corrigido alguns textos;</h4>
+        <h4>-Corrigido o ConsoleAttachment.Asi;</h4>
+        <h4>-Ajustado a estratégia e a chance de suporte de SUVs Pesados no nível 8 de procurado;</h4>
+        <h4>-Corrigido Alguns textos na instalação do binary e do Mini Patch Fix;</h4>
+        <h4>-Atualizado as Screenshots no VLT-ED.</h4>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="https://img.youtube.com/vi/Gw1xJmXm0K8/maxresdefault.jpg" alt="Imagem com Animação" class="zoom-image">
+        </div>
+    </div>
+        <p style="line-height: 5.0;">_____________________</p>
+        <h2>Todo o Changelog V4.0</h2>
+        <h3>Além das correções e melhorias do V1, V2, V2.5 e 3.0 temos:</h3>
+        <h4>-Alterado o carro do série desafios 48; (Um problema que esqueci de corrigir perdão)</h4>
+        <h4>-Corrigido carroceria invísivel do Porsche 918 Spyder Modificado do série desafios 27;</h4>
+        <h4>-Aumentado o tempo necessário do série desafios 49, pois estava muito no limite;</h4>
+        <h4>-Retirado as correções dos NIS dos blacklists 5 e 6, pois eram bugadas;</h4>
+        <h4>-Bloquedo a opção de capôs, aerofólios, faróis, lanternas, entradas de ar no teto e placas personalizadas do Hummer H1 Alpha por causa que estavam todos invisíveis;</h4>
+        <h4>-Corrigido pequeno erro ao instalar o DXVK no Preset 5 (Heavy);</h4>
+        <h4>-Adicionado dois novos opcionais, um deles é de carros invencíveis e o outro é um Save Game 100%, caso queira testar os carros entre outras coisas; (OBS: é apenas o save normal e não o especial)</h4>
+        <h4>-Adicionado opção de apenas mudar os adicionais na parte principal da instalação do Binary;</h4>
+        <h4>-Adicionado um tópico de recomendações no Leia-Me para uma experiência mais tranquila ao jogar;</h4>
+        <h4>-Atualizado Screenshots.</h4>
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="https://i.ibb.co/M3t5W84/Screenshot-3.jpg" alt="Imagem com Animação" class="zoom-image">
+        </div>
+    </div>
+        <h2>Créditos:</h2>
+        <h3>Nfsu360 (Pelo Vlted 4.6)</h3>
+        <h4>MaxHwoy (Pelo Binary 2.8.3)</h4>
+        <h4>Notepad++</h4>
+        <h4>nlgzrgn (Pelos scripts e o Motion Blur mais leve)</h4>
+        <h4>xan1242 (Pela compatibilidade com controles modernos e pelo XNFSMusicPlayer)</h4>
+        <h4>D4emon712 (Pelos NIS Fixes)</h4>
+        <h4>x0reaxeax (Pelo MWCrashFix)</h4>
+        <h4>Zolika1351 (Pelo Limit Ajuster)</h4>
+        <h4>ARCHIE, megusvae e BiggusWeeabus (Pelo Hud de Velocidade Modificado)</h4>
+        <h4>GoodBoyGamer/Riverflo, Theathnever, ODiLISk, Modder900 e MNaeemi777 (Pelos Carros Policiais Adicionados)</h4>
+        <h4>Alexc12fr (Pelo Helicóptero do NFS Undercover)</h4>
+        <h4>Frexellia (Pelos áudios das sirenes da polícia do NFS Undercover/World)</h4>
+        <h4>Mila SwiftlySenpai (Pelos policiais do nível 8-15 mais difíceis e agressivos)</h4>
+        <h4>Vercel (Pela divulgação do site)</h4>
+        <h4>Igão Play e Fiscal (Por algumas capturas de tela no site)</h4>
+    </body>
+
+</html>
+
+
+
+
+
+
