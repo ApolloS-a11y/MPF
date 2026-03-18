@@ -117,6 +117,30 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.elemento {
+  cursor: url('Cursor/nfs_cursor.png'), auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+    cursor: url('Cursor/nfs_cursor.png'), pointer;
+}
+
+body {
+    cursor: url('Cursor/nfs_cursor.png'), default;
+}
+
+a, button {
+    cursor: url('Cursor/nfs_cursor.png'), default;
+}
+
+img.minha-imagem:hover {
+    cursor: url('Cursor/nfs_cursor.png'), auto;
+}
+
 .lang-en { display: none; }
 
 body.en .lang-en { display: block; }
