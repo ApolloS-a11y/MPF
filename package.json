@@ -1,0 +1,15 @@
+{
+  "name": "minipatchfixultimateedition",
+  "version": "1.0.0",
+  "description": "Mini Patch Fix Ultimate Edition - NFS Most Wanted mod website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "keywords": ["nfs", "most-wanted", "mod"],
+  "author": "ApolloS-a11y",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
